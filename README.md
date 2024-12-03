@@ -7,7 +7,7 @@ Flutter é um framework de código aberto criado pelo Google, lançado oficialme
 
 ## Descrição do Projeto
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/f486a653-9045-4a79-b8ee-98bc545e0286)
 
 O **Waterfy** é um aplicativo intuitivo que ajuda o usuário a monitorar o consumo diário de água. Ele é especialmente útil para pessoas que desejam adotar hábitos saudáveis relacionados à hidratação. 
 
