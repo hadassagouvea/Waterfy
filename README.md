@@ -1,13 +1,11 @@
 # Waterfy
 
-## Projeto de desenvolvimento de um aplicativo mobile de tema e tecnologia livres para a disciplina de Engenharia de Aplicações Móveis (2024/2).
-
 ## Flutter
 Flutter é um framework de código aberto criado pelo Google, lançado oficialmente em dezembro de 2018. Ele permite o desenvolvimento de aplicativos nativos com uma única base de código para Android, iOS, web e desktop. A linguagem usada é o Dart, também criada pelo Google, que facilita o gerenciamento de estados, animações e interações. Flutter é amplamente utilizado para criar interfaces modernas e responsivas, graças à sua abordagem baseada em widgets. Um dos grandes diferenciais é sua renderização nativa direta, que oferece alta performance e personalização.
 
 ## Descrição do Projeto
 
-![image](https://github.com/user-attachments/assets/f486a653-9045-4a79-b8ee-98bc545e0286)
+![image](https://github.com/user-attachments/assets/b4345a0c-0518-4edf-adf0-5632cdc66ecf)
 
 O **Waterfy** é um aplicativo intuitivo que ajuda o usuário a monitorar o consumo diário de água. Ele é especialmente útil para pessoas que desejam adotar hábitos saudáveis relacionados à hidratação. 
 
