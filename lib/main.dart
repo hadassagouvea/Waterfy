@@ -286,7 +286,7 @@ class _WaterfyScreenState extends State<WaterfyScreen>
                                           MainAxisAlignment.center,
                                       children: [
                                         const Text(
-                                          "Ainda falta",
+                                          "Ainda faltam",
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 16,
@@ -867,14 +867,6 @@ class WaterWavePainter extends CustomPainter {
       yOffset += topOffset;
     }
 
-    final roundedRect = RRect.fromRectAndCorners(
-      Rect.fromLTRB(0, yOffset, size.width, size.height),
-      bottomLeft: Radius.circular(16),
-      bottomRight: Radius.circular(16),
-    );
-
-    canvas.clipRRect(roundedRect);
-
     path1.moveTo(0, yOffset);
     for (double x = 0; x <= size.width; x++) {
       path1.lineTo(
@@ -888,7 +880,6 @@ class WaterWavePainter extends CustomPainter {
     path1.lineTo(0, size.height);
     path1.close();
 
-    // Segunda onda
     path2.moveTo(0, yOffset + 2);
     for (double x = 0; x <= size.width; x++) {
       path2.lineTo(
@@ -906,6 +897,7 @@ class WaterWavePainter extends CustomPainter {
     path2.close();
 
     canvas.drawPath(path1, paint);
+
     canvas.drawPath(
       path2,
       Paint()..color = Colors.blue.withOpacity(0.6),
@@ -915,4 +907,3 @@ class WaterWavePainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => true;
 }
-
